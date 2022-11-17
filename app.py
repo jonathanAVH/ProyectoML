@@ -22,7 +22,7 @@ def main():
     
     model=''
 
-    # Se carga el modelo
+    # Se carga el modelo .
     if model=='':
         with open(MODEL_PATH, 'rb') as file:
             model = pickle.load(file)
